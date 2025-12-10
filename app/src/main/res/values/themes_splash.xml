@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Tenantrix.Splash" parent="Theme.SplashScreen">
+        <!-- White background -->
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+
+        <!-- Full-screen centered splash image -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+
+        <!-- Remove icon cropping -->
+        <item name="windowSplashScreenAnimationDuration">0</item>
+
+        <!-- Continue to normal theme after splash -->
+        <item name="postSplashScreenTheme">@style/Theme.Tenantrix</item>
+    </style>
+
+</resources>
